@@ -4,6 +4,7 @@
   border-radius: 5px;
   width: 100px;
   height: 25px;
+  padding: 3% 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -281,11 +282,6 @@ nav .nav-right a {
   color: #898E88;
   font-size: 20px;
 }
-@media (max-width: 800px) {
-  .header .header-right h5 {
-    display: none;
-  }
-}
 .middle {
   width: 98%;
   display: flex;
@@ -293,7 +289,7 @@ nav .nav-right a {
   margin: 1%;
   background-color: #5B7648;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .middle {
     flex-direction: column;
   }
@@ -306,7 +302,7 @@ nav .nav-right a {
   display: flex;
   flex-direction: column;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .middle .middle-left {
     width: 96%;
     margin: 2% 2% 1% 2%;
@@ -336,7 +332,7 @@ nav .nav-right a {
   display: flex;
   flex-direction: column;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .middle .middle-middle {
     width: 96%;
     margin: 2% 2% 1% 2%;
@@ -366,7 +362,7 @@ nav .nav-right a {
   display: flex;
   flex-direction: column;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .middle .middle-right {
     width: 96%;
     margin: 2% 2% 0% 2%;
@@ -396,7 +392,7 @@ nav .nav-right a {
   display: flex;
   flex-direction: column;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .middle .middle-right-special {
     width: 96%;
     margin: 2% 2% 2% 2%;
@@ -428,7 +424,7 @@ footer {
   justify-content: center;
 }
 footer .footer-middle {
-  width: 33.333%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -437,11 +433,11 @@ footer .footer-middle .copyright {
   font-size: 12px;
   line-height: 19px;
   color: #898E88;
-  margin-right: 1px;
+  margin-right: 3px;
 }
 footer .footer-middle .lambda-team {
   font-size: 12px;
   line-height: 19px;
   color: #E2FFCE;
-  margin-left: 1px;
+  margin-left: 3px;
 }
