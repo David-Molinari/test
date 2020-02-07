@@ -297,7 +297,7 @@ nav .nav-right a {
   justify-content: space-around;
   margin: 1%;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .middle {
     flex-direction: column;
   }
@@ -310,7 +310,7 @@ nav .nav-right a {
   display: flex;
   flex-direction: column;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .middle .middle-left {
     width: 96%;
     margin: 2% 2% 1% 2%;
@@ -339,7 +339,7 @@ nav .nav-right a {
   display: flex;
   flex-direction: column;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .middle .middle-middle {
     width: 96%;
     margin: 2% 2% 1% 2%;
@@ -368,7 +368,7 @@ nav .nav-right a {
   display: flex;
   flex-direction: column;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .middle .middle-right {
     width: 96%;
     margin: 2% 2% 2% 2%;
